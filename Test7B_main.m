@@ -188,7 +188,6 @@ for idx = 1:height(Group_Anomaly)
     legend('RRCF','IF','LOF','OCSVM');
     title('Comparison between all the methods');
 
-    
 end
 
 
