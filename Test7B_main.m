@@ -6,6 +6,7 @@ load("Group_Anomaly.mat")
 
 
 %% Training & Test dei vari metodi (ALMA IN)
+
 for idx = 1:height(Group_Anomaly)
 
     data_train = STM7Bdata_ft_418_WP_labeled(1700:2000,Group_Anomaly.Alma_IN{idx});
@@ -102,6 +103,7 @@ end
 
 
 %% Training & Test dei vari metodi con aggiunta dei WP (ALMA IN)
+
 for idx = 1:height(Group_Anomaly)
 
     data_train = STM7Bdata_ft_418_WP_labeled(1700:2000,[1,2,Group_Anomaly.Alma_IN{idx}]);
