@@ -7,6 +7,7 @@ load("Group_Anomaly.mat")
 
 %% Training & Test dei vari metodi (ALMA IN)
 
+disp('hello')
 
 for idx = 1:height(Group_Anomaly)
 
